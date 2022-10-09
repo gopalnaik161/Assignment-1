@@ -1,0 +1,38 @@
+.container{
+	
+	flex-direction: coloum;
+	align-items: center;
+	
+}
+
+th,td{
+	border:1px solid  black;
+	padding: 10px;
+	
+	}
+#data{
+	margin-bottom: 10px;
+	
+}
+#data input,bottom{
+	padding:10px;
+	width:90px;	
+}
+.container {
+  counter-reset: serial-number; 
+}
+
+.container td:first-child:before {
+  counter-increment: serial-number;  
+  content: counter(serial-number);  
+}
+
+
+
+
+
+
+
+
+
+
